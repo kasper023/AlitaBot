@@ -1,0 +1,36 @@
+{
+
+  "development": {
+    "username": "naruto",
+    "password": "naruto",
+    "database": "jsrush",
+    "host": "localhost",
+    "dialect": "postgres",
+    "pg": "^7.11.0",
+    "define": {
+      "timestamps": false
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "56654", 
+    "database": "anti-corona",
+    "host": "postgre1",
+    "dialect": "postgres",
+    "pg": "^7.11.0",
+    "define": {
+      "timestamps": false
+    }
+  },
+  "production": {
+    "username": "postgres",
+    "password": "56654",
+    "database": "anti-corona",
+    "host": "postgre1",
+    "dialect": "postgres",
+    "pg": "^7.11.0",
+    "define": {
+      "timestamps": false
+    }
+  }
+}

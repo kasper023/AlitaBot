@@ -1,0 +1,27 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-docker": "npm i && sequelize db:migrate &&  npm start",
+    "server": "nodemon index.js"
+  },
+  "author": "Decode",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.40.0",
+    "nodemon": "^2.0.4",
+    "pg": "^8.1.0",
+    "pg-hstore": "^2.3.3",
+    "request": "^2.81.0",
+    "sequelize": "^5.21.7",
+    "sequelize-cli": "^5.5.1",
+    "telegraf": "^3.37.0"
+  },
+  "devDependencies": {
+    "node-cron": "^2.0.3"
+  }
+}
