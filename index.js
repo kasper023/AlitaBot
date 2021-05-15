@@ -1,6 +1,4 @@
 const TelegramBot = require('node-telegram-bot-api');
-// const token = '1202033897:AAHglJA6iLKaP6EA4j47tdw_XwQUtF7sqGA'; // Alita_test
-const token = '1133025600:AAF2ASdpr1PfJ5ci0hWhlEglUa7T5T0j2KM'; // Alita
 // Включить опрос сервера. Бот должен обращаться к серверу Telegram, чтобы получать актуальную информацию
 // Подробнее: https://core.telegram.org/bots/api#getupdates
 const bot = new TelegramBot(token, { polling: true });
